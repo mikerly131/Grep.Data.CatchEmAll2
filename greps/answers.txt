@@ -17,20 +17,20 @@ ggrep -P "jigg" filescan_00.3 > jigglypuff.txt
 ggrep -P "pika" filescan_00.3 > pikachu.txt
 
 ### d) filescan_00.4
-
+ggrep -P "squi" filescan_00.4 > squirtle.txt
+ggrep -P "psyd" filescan_00.4 > psyduck.txt
+ggrep -P "venu" filescan_00.4 > venusaur.txt
+ggrep -P "wart" filescan_00.4 > wartortle.txt
 
 
 
 # Part 2
-### a)
+### a) 16
+captured % find . -name "*.txt" | wc -l
 
 
-
-
-
-
-### b)
-
+### b) it fails, im done
+captured % find . -name "*.txt" | exec wc -l
 
 
 
