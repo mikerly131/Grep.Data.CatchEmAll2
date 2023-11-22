@@ -1,23 +1,22 @@
 # Part 1
-### a)
+### a) filescan_00.1
+ggrep -P "beed" filescan_00.1 > beedrill.txt
+ggrep -P "blas" filescan_00.1 > blastoise.txt
+ggrep -P "bulb" filescan_00.1 > bulbasaur.txt
+ggrep -P "butt" filescan_00.1 > butterfree.txt
 
+### b) filescan_00.2
+ggrep -P "mander$" filescan_00.2 > charmander.txt
+ggrep -P "meleon$" filescan_00.2 > charmeleon.txt
+ggrep -P "izard$" filescan_00.2 > charizard.txt
 
+### c) filescan_00.3
+ggrep -P "ivys" filescan_00.3 > ivysaur.txt
+ggrep -P "meow" filescan_00.3 > meowth.txt
+ggrep -P "jigg" filescan_00.3 > jigglypuff.txt
+ggrep -P "pika" filescan_00.3 > pikachu.txt
 
-
-### b)
-
-
-
-### c)
-
-
-
-
-
-
-
-
-
+### d) filescan_00.4
 
 
 
